@@ -45,7 +45,7 @@ class BSTzig
 				
 				node* x =Create(data);
 				temp->right=x;
-				cout<<"eright side data : "<<temp->right->data<<endl;
+				cout<<"right side data : "<<temp->right->data<<endl;
 				count++;
 				return;
 			}
